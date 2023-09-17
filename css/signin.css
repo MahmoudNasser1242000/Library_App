@@ -1,0 +1,17 @@
+input[type= "radio"] {
+    background-color: white !important;
+    border-color: #494a4b !important;
+}
+
+input[type= "radio"]:focus {
+    box-shadow: 0 0 1px 3px #21252967;
+}
+
+input[type= "radio"]:checked, input[type= "checkbox"]:checked {
+    background-color: #212529 !important;
+}
+
+input[type= "checkbox"] {
+    border: none !important;
+    box-shadow: 0 0 0 1px #494a4b !important;
+}

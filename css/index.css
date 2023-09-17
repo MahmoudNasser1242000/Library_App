@@ -1,0 +1,86 @@
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+.Dabja1 {
+    font-family: 'Gulzar', serif;
+    font-size: 60px;
+    transition: all 1s !important;
+}
+
+.Dabja2 {
+    font-family: 'Gulzar', serif;
+    font-size: 46px;
+    opacity: 0;
+    transition: all 1s !important;
+}
+
+.cover:hover .Dabja2 {
+    opacity: 100%;
+}
+
+.cover:hover .Dabja1 {
+    opacity: 0;
+}
+
+/* =================================================== */
+
+.same-books {
+    background-color: whitesmoke;
+    width: 250px;
+}
+
+.same-books img {
+    width: 90% !important;
+}
+
+.other-books {
+    transition: 1s;
+}
+
+.other-books:hover {
+    transform: scale(1.1);
+}
+
+/* ======================================================= */
+.active>.page-link,
+.page-link.active {
+    background-color: #212529 !important;
+    border-color: #212529 !important;
+    color: white !important;
+}
+
+.page-link {
+    color: #212529 !important;
+    transition: 0.5s;
+}
+
+.page-link:focus {
+    box-shadow: 0 0 0 0.25rem rgba(27, 37, 33, 0.5) !important;
+}
+
+/* ========================================================== */
+
+textarea:focus {
+    border-color: #212529 !important;
+    box-shadow: 0 0 0 0.25rem rgb(33 37 41 / 50%) !important;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    background-color: #212529 !important;
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {
+    box-shadow: none !important;
+}
+
+input[type="range"]:active::-webkit-slider-thumb {
+    box-shadow: 0 0 0 0.25rem rgb(33 37 41 / 50%) !important;
+}
+
+/* =========================================================== */
+
+input[type="search"]:focus {
+    box-shadow: 0 0 0 0.25rem rgb(33 37 41 / 50%) !important;
+    border-color: #212529 !important;
+}

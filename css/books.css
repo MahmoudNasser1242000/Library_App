@@ -1,0 +1,57 @@
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+:root {
+    --main-color: rgb(25, 135, 84);
+}
+
+.form-control:focus,
+select:focus {
+    border-color: rgb(25, 135, 84, 50%) !important;
+    box-shadow: 0 0 0 0.25rem rgb(25, 135, 84, 50%) !important;
+}
+
+tr th {
+    background-color: rgb(25,135,84, 80%) !important;
+    color: white !important;
+}
+
+/* td {
+    line-height: 90px !important;
+} */
+
+td img {
+    transition: 0.5s;
+}
+
+td img:hover {
+    transform: scale(1.4);
+}
+
+/* td div {
+    height: 102px !important;
+} */
+
+.book, .book-title {
+    width: 300px;
+}
+
+.active > .page-link, .page-link.active {
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+    color: white !important;
+}
+
+.page-link {
+    color: var(--main-color) !important;
+    transition: 0.5s;
+}
+
+.page-link:focus {
+    box-shadow: 0 0 0 0.25rem rgb(25,135,84,50%) !important;
+}
+
+select:hover::after {
+    background-color: var(--main-color) !important;
+}

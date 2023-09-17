@@ -1,0 +1,19 @@
+* {
+    font-family: 'Cairo', sans-serif; 
+}
+
+:root{
+    --main-color: rgb(25,135,84);
+}
+
+.list-group-item {
+    height: 80px !important;
+    display: flex !important;
+    align-items: center !important;
+    border: 0 !important;
+    border-bottom: 1px solid #eee !important;
+}
+
+.dropdown-item:focus {
+    background-color: var(--main-color) !important;
+}

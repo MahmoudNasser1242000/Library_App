@@ -1,0 +1,7 @@
+.statics {
+    transition: 0.5s
+}
+
+.statics:hover {
+    transform: scale(1.3);
+}
